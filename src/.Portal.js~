@@ -1,0 +1,13 @@
+import 
+class Portal {
+    constructor ( dbname ) {
+        super()
+        this.dbname = dbname;
+        this.db = new PouchDB(this.dbname);
+    }
+    
+
+}
+export default Portal;
+
+
